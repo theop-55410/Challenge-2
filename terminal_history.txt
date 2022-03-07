@@ -1,0 +1,50 @@
+   17  cd desktop
+   18  mkdir Fintech-Workspace
+   19  cd Fintech-Workspace
+   20  ls
+   21  cd ..
+   22  cd ~
+   23  conda
+   24  bash
+   25  conda --version
+   26  source ~/.bashrc
+   27  conda
+   28  code .
+   29  .conda
+   30  conda
+   31  subl .
+   32  cd desktop
+   33  conda
+   34  git init
+   35  conda
+   36  truffle
+   37  conda
+   38  /conda
+   39  conda
+   40  conda
+   41  cd desktop
+   42  cd desktop
+   43  cd d
+   44  cd desktop
+   45  cd d
+   46  cd Desktop
+   47  conda
+   48  get-module
+   49  sample.sh
+   50  ./sample.sh
+   51  ./conda
+   52  which ls
+   53  echo $PATH
+   54  sample
+   55  which sample
+   56  echo $PATH
+   57  conda basd
+   58  anaconda -v
+   59  conda init
+   60  conda init bash
+   61  cat ~/.bash_profile >> ~/.bashrc
+   62  cd OneDrive/
+   63  cd Desktop
+   64  cd FinTech-Workspace/
+   65  cd Challenge-2/
+   66  history 50 > terminal_history.txt
