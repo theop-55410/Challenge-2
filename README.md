@@ -1,6 +1,7 @@
 # Challenge-2
 Challenge exercise for module 2
 
+<<<<<<< HEAD
 # Project Title
 
 Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
@@ -35,3 +36,7 @@ In this section, list all the people who contribute to this project. You might w
 
 When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
 
+=======
+
+###hello hello hello hello hallo
+>>>>>>> 12b0c2736d6e9230af2b22fc8d118b445357c016
