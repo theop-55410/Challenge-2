@@ -109,22 +109,22 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    #''''''
+    #ask user if they want to save their loans in a spreadsheet using questionary
     if questionary.confirm("do you want to save your loans in a spreadsheet?").ask():
 
-    #credit_score = questionary.text("What's your credit score?").ask() 
-
+                                                            #credit_score = questionary.text("What's your credit score?").ask() 
+        #use path library and questionary to create a file to save the loans in 
         output_path = Path(questionary.text("enter the file path: ").ask())
         with open(output_path, "w", newline="") as loan_list:
             qualifier = csv.writer(loan_list, delimiter=",")
-        #qualifier.writerow(header)
-
-        #for index in qualifying_loans: 
-        #    qualifier.writerow(index)   #''''''
-        #    if questionary.text("do you want to save your loans in a spreadsheet?").ask(): 
+                                                                #qualifier.writerow(header)
             qualifier.writerows(qualifying_loans)
-        #for index in range(0,len(qualifying_loans)): 
-        #   qualifier.writerow([qualifying_loans[index]])
+                                                            #for index in qualifying_loans: 
+                                                            #    qualifier.writerow(index)   #''''''
+                                                            #    if questionary.text("do you want to save your loans in a spreadsheet?").ask(): 
+            
+                                                            #for index in range(0,len(qualifying_loans)): 
+                                                            #   qualifier.writerow([qualifying_loans[index]])
             
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
